@@ -25,7 +25,6 @@ export const Home = () => {
     {/* {Right Div} */}
      <div className="flex-[2]">
       <PopularDishes/>
-
      </div>
     <BottomNav />
 
@@ -34,4 +33,4 @@ export const Home = () => {
   );
 };
 
-export default Home
+export default Home;

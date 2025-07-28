@@ -40,4 +40,4 @@ const PopularDishes = () => {
   )
 }
 
-export default PoupularDishes
+export default PopularDishes;
