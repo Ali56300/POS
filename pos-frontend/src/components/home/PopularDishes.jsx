@@ -20,11 +20,11 @@ const PopularDishes = () => {
           {
             popularDishes.map((dish) => {
               return (
-                <div key={dish.id} className="flex items-center gap-4 bg-[#1f1f1f] rounded-[15px] px-6 mx-6">
-                    <img src={dish.image} alt={dish.name} className="w-[50px] h-[50px] rounded-lg" />
+                <div key={dish.id} className="flex items-center gap-4 bg-[#1f1f1f] rounded-[15px] px-6 mt-4 mx-6">
+                    <img src={dish.image} alt={dish.name} className="w-[50px] h-[50px] rounded-full" />
                     <div>
-                      <h1 className="text-[#f5f5f5] font-semibold">{dish.name}</h1>
-                      <p className="text-[#f5f5f5] text-sm">₹{dish.numberOfOrders}orders</p>
+                      <h1 className="text-[#f5f5f5] font-semibold font-semibold mt-1">{dish.name}</h1>
+                      <p className="text-[#f5f5f5] text-sm"><span className='text-[#ababab]'>orders:</span>{dish.numberOfOrders}orders</p>
                     </div>
 
                 </div>
